@@ -1,0 +1,46 @@
+@import "utilities/index", "base/index", "component/index";
+
+* {
+  color: $font-color;
+  box-sizing: border-box;
+}
+
+.headline-primary {
+  color: $base-color;
+  margin-left: 10px;
+}
+
+.headline-secondary {
+  color: $font-color;
+}
+
+.link {
+  color: $link-color;
+}
+
+.blockquote {
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid $base-color;
+  border-radius: 5px;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+
+      .btn + .btn {
+        margin-left: 10px;
+      }
+
+      .logo {
+        margin-left: initial;
+        margin-right: initial;
+      }
+}

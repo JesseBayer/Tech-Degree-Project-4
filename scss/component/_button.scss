@@ -1,0 +1,32 @@
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: $link-hover;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    @media (min-width: 768px) {
+      padding: 10px 30px;
+    }
+  }
+  
+  .default {
+    background-color: $link-color;
+  }
+  
+  .error {
+    background-color: #e4757a;
+  }
+  
+  .info {
+    background-color: $info-color;
+  }
+  
+  .success {
+    background-color: #63cc82;
+  }
+  
+  .warning {
+    background-color: #fd7856;
+  }
