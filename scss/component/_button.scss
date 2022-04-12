@@ -9,7 +9,7 @@
     &:hover {
       transition: background-color .4s ease-in;
     }
-    @media (min-width: 768px) {
+    @media (min-width: $breakpoint) { 
       padding: 10px 30px;
     }
   }

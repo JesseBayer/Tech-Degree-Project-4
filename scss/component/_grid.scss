@@ -1,6 +1,6 @@
 .container {
     padding: 0 10px;
-    @media (min-width: 768px) {
+    @media (min-width: $breakpoint) {
         max-width: 1400px;
         display: block;
         margin-left: auto;
@@ -12,7 +12,7 @@
     display: flex;
     flex-direction: column;
     padding: 1em 10px;
-    @media (min-width: 768px) {
+    @media (min-width: $breakpoint) {
       flex-direction: row;
     }
   }
@@ -78,7 +78,7 @@
     flex-basis: 100%;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: $breakpoint) {
     .centered {
         display: block;
         margin-left: auto;
